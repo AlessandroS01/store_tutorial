@@ -9,7 +9,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 public class StoreTutorialApplication {
 
     static void main(String[] args) {
-        // COnfiguration of dotenv-java
+        // Configuration of dotenv-java
         Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
 
         // Add properties to System.properties
